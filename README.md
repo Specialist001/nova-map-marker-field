@@ -1,7 +1,7 @@
 # Map Marker Field for Laravel Nova
-[![GitHub (pre-)release](https://img.shields.io/github/release/GeneaLabs/nova-map-marker-field/all.svg)](https://github.com/GeneaLabs/nova-map-marker-field)
-[![Packagist](https://img.shields.io/packagist/dt/GeneaLabs/nova-map-marker-field.svg)](https://packagist.org/packages/genealabs/nova-map-marker-field)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/GeneaLabs/nova-map-marker-field/master/LICENSE)
+[![GitHub (pre-)release](https://img.shields.io/github/release/Specialist/nova-map-marker-field/all.svg)](https://github.com/Specialist/nova-map-marker-field)
+[![Packagist](https://img.shields.io/packagist/dt/Specialist/nova-map-marker-field.svg)](https://packagist.org/packages/specialist/nova-map-marker-field)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Specialist/nova-map-marker-field/master/LICENSE)
 
 ![Map Marker Field for Laravel Nova masthead image.](https://repository-images.githubusercontent.com/193125151/642cd600-9590-11e9-99d0-d77a638bf308)
 
@@ -14,25 +14,25 @@ We thank the following sponsors for their generosity, please take a moment to ch
 
 ## Requirements
 - Laravel 9.0+
-- Nova 3.9+
+- Nova 4.10+
 
 ## Installation
 1. Install the package:
   ```sh
-  composer require genealabs/nova-map-marker-field
+  composer require specialist/nova-map-marker-field
   ```
 
 2. Publish the marker icon assets (this is not necessary if you are specifying
   your own):
   ```sh
-  php artisan vendor:publish --provider="GeneaLabs\NovaMapMarkerField\Providers\Service"
+  php artisan vendor:publish --provider="Specialist\NovaMapMarkerField\Providers\Service"
   ```
 
 ## Implementation
 To create the map marker field, all that is necessary is the form label, and the
 remaining options will have defaults applied:
 ```php
-use GeneaLabs\NovaMapMarkerField\MapMarker;
+use Specialist\NovaMapMarkerField\MapMarker;
 
 MapMarker::make("Location"),
 ```
@@ -137,7 +137,7 @@ be. My checklist for package development includes:
 -   ✅ Have no PHPMD or PHPCS warnings throughout all code.
 
 ## Contributing
-Please observe and respect all aspects of the included Code of Conduct <https://github.com/GeneaLabs/nova-map-marker-field/blob/master/CODE_OF_CONDUCT.md>.
+Please observe and respect all aspects of the included Code of Conduct <https://github.com/Specialist/nova-map-marker-field/blob/master/CODE_OF_CONDUCT.md>.
 
 ### Reporting Issues
 When reporting issues, please fill out the included template as completely as
@@ -145,7 +145,7 @@ possible. Incomplete issues may be ignored or closed if there is not enough
 information included to be actionable.
 
 ### Submitting Pull Requests
-Please review the Contribution Guidelines <https://github.com/GeneaLabs/nova-map-marker-field/blob/master/CONTRIBUTING.md>. Only PRs that meet all criterium will be accepted.
+Please review the Contribution Guidelines <https://github.com/Specialist/nova-map-marker-field/blob/master/CONTRIBUTING.md>. Only PRs that meet all criterium will be accepted.
 
 ## If you ❤️ open-source software, give the repos you use a ⭐️.
 We have included the awesome `symfony/thanks` composer package as a dev dependency. Let your OS package maintainers know you appreciate them by starring the packages you use. Simply run `composer thanks` after installing this package. (And not to worry, since it's a dev-dependency it won't be installed in your live environment.)

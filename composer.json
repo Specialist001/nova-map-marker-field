@@ -1,5 +1,5 @@
 {
-    "name": "genealabs/nova-map-marker-field",
+    "name": "specialist/nova-map-marker-field",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "GeneaLabs\\NovaMapMarkerField\\": "src/"
+            "Specialist\\NovaMapMarkerField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "GeneaLabs\\NovaMapMarkerField\\Providers\\Service"
+                "Specialist\\NovaMapMarkerField\\Providers\\Service"
             ]
         }
     },
