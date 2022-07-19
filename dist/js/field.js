@@ -218,14 +218,12 @@ __webpack_require__.r(__webpack_exports__);
       case "google":
         this.geosearchOptions.provider = new leaflet_geosearch__WEBPACK_IMPORTED_MODULE_2__.GoogleProvider(providerOptions);
         break;
-
-      case "locationiq":
-        this.geosearchOptions.provider = new leaflet_geosearch__WEBPACK_IMPORTED_MODULE_2__.LocationIQProvider(providerOptions);
-        break;
-
-      case "opencage":
-        this.geosearchOptions.provider = new leaflet_geosearch__WEBPACK_IMPORTED_MODULE_2__.OpenCageProvider(providerOptions);
-        break;
+      // case "locationiq":
+      //     this.geosearchOptions.provider = new LocationIQProvider(providerOptions);
+      //     break;
+      // case "opencage":
+      //     this.geosearchOptions.provider = new OpenCageProvider(providerOptions);
+      //     break;
 
       case "openstreetmap":
         this.geosearchOptions.provider = new leaflet_geosearch__WEBPACK_IMPORTED_MODULE_2__.OpenStreetMapProvider(providerOptions);
